@@ -1,0 +1,24 @@
+body{
+    background-color: #29bd6c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#titulo{
+    width: 90%;
+    width: 1100px;
+    margin: 0px auto;
+}
+
+header{
+    background-color: #6565e9;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav{
+    background-color: #50505a;
+    line-height: 30px;
+    text-align:left;
+    
+}

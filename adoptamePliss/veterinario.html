@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>tienda</title>
+
+</head>
+
+<body>
+    <div id="titulo">
+    
+    <header><!--cabezera de la pagina-->
+        <h1>AdoptamePliss</h1>
+    </header> 
+
+        <nav>
+            <!--Menu-->
+            <a href="home.html" target="_blank"> home</a>
+            <a href="adoptame.html" target="_blank">adoptame</a>
+            <a href="tienda.html" target="_blank">tienda</a>
+            <a href="veterinario.html" target="_blank">veterinaria</a>
+            <a href="#contacto">Contacto</a>
+
+        </nav>
+    
+    <img src="http://www.colvema.org/eac/ckfinder/userfiles/images/coronamascotasmail2.jpg" width=" 700">
+    <p>pedido de atención</p>
+    <form>
+
+        <!--El cliente Usuario debe llenar con su inforcación de forma obligatora-->
+    <section id="formulario">
+            
+        <label>nombre de la mascota: 
+          <input type="text" required=""><br/> 
+        </label>
+        <label>especie de la mascota: 
+          <input type="text" required=""><br/>
+        </label>
+        <label>nombre del dueño: 
+          <input type="text" required=""><br/>
+        </label>
+        <label>rut: 
+          <input type="number" required=""><br/>
+        </label>
+        <label>telefono: 
+          <input type="number" required=""><br/>
+        </label>
+        <label>fecha de la cita: 
+          <input type="date" required=""><br/>
+        </label>
+        <label>hora de la cita: 
+          <input type="time" required=""><br/>
+        </label>
+    </section>
+        <!--Debe especificar cual va a ser su atención-->
+        <select>
+        <option>opcion</option> <!--opcion por defecto no validado-->
+        <option value "veterinario">veterinario</option> <!--opción de veterinario validado-->
+        <option  value "peluquero">peluquero</option> <!--opción de peluquero validado-->
+     </select>
+        <input type="submit">
+        <!--boton de "enviar"-->
+
+
+    </form>
+
+    <!--informacion de las redes sociales-->
+
+    <footer><!--pie de pagina-->
+
+        <!--informacion de las redes sociales-->
+        <hr>
+        <!--es para que aparesca una linea separadora de la pagina con la 
+        información de contacto-->
+        <p>si quieres saber mas de nosotros contactanos:</p>
+        <section id="contacto"></section>
+        <ul>
+            <li> Facebook: adoptaPliss </li>
+            <li> WhatsApp: +5697652834 </li>
+            <li> telefono: +564583645 </li>
+            <li> Instagram: AdoptamePliss </li>
+        </ul>
+        </hr>
+    </footer>
+        
+  </div>
+</body>
+
+</html>
